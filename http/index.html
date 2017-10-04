@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Bitcoin Prices</h1>
+    <p>
+      This is an example of how to use Websocket to pull live data and render it on a graph using D3.
+    </p>
+
+  </div>
+  <div class="container">
+    <div class="row" id="tabular"> </div>
+    <div class="row">
+      <h2> High & Low </H2>
+      <div class="col-md-3" id="highChart"> </div>
+      <div class="col-md-3" id="lowChart"> </div>
+    </div>
+    <div class="row">
+      <h2> Open & Close </H2>
+      <div class="col-md-3" id="openGraph"> </div>
+      <div class="col-md-3" id="closeGraph"> </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../node_modules/jquery/dist/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../node_modules/d3/build/d3.min.js"></script>
+  <script src="js/bar.js"></script>
+  <script src="js/line.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
